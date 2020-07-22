@@ -1,0 +1,72 @@
+.covid-table-page{
+  padding-top: 50px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin: 10px auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table tr td:hover {
+  background-color:grey;
+  cursor: pointer;
+  color:white;
+}
+
+.yellow-cell {
+  background-color: yellow;
+}
+
+.red-cell {
+  background-color: red;
+}
+
+.green-cell {
+  background-color: green;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination span {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #2196F3;
+  cursor: pointer;
+}
+
+.currentPage{
+  background-color: #2196F3;
+    color: white !important;
+    font-weight: bold;
+}
+
+.disable-span{
+pointer-events: none;
+background-color: #cccccc;
+}
+
+.search-input-parent{
+  width: 95%;
+  margin: 0px auto;
+  text-align: left;
+}
+
+.no-data-available{
+  text-align: center;
+    padding: 30px;
+}
+.no-data-available:hover{
+  background-color:inherit;
+  color:inherit;
+}
